@@ -1,0 +1,39 @@
+.Header {
+  .header-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header-left {
+      a {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #000000;
+      }
+    }
+    .header-middle {
+      a {
+        padding-right: 75px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        color: #000000;
+      }
+    }
+    .header-right {
+      display: flex;
+      align-items: center;
+
+      button {
+        padding-right: 45px;
+        background: none;
+        border: none;
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
+      }
+    }
+  }
+}
